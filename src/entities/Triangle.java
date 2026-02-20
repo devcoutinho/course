@@ -6,4 +6,9 @@ public class Triangle {
 	public double b;
 	public double c;
 	
+	public double area() {
+		double P = (a + b + c) / 2.00;
+		return Math.sqrt(P* (P - a) * (P - b) * (P - c));
+	}
+	
 }
